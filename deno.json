@@ -1,6 +1,10 @@
 {
   "tasks": {
     "dev": "deno run --watch main.ts",
-    "d01": "deno run -A 01.ts"
+    "d01": "deno run -A 01.ts",
+    "d02": "deno run -A 02.ts",
+    "d03": "deno run -A 03.ts",
+    "d04": "deno run -A 04.ts",
+    "d05": "deno run -A 05.ts",
   }
 }

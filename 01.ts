@@ -1,7 +1,3 @@
-export function add(a: number, b: number): number {
-  return a + b;
-}
-
 export function d01_1(input: string): number {
   return input.split("\n").map((x) => x.replaceAll(/[a-z]/gi, "")).map((x) => {
     return parseInt(x.split("")[0], 10) * 10 +
